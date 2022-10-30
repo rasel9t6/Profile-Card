@@ -51,19 +51,22 @@ main article{
   padding: 0 30px 30px;
   
 }
-main article h2{
-  padding: 10px;
+.information h1{
+  font-size: 1rem;
+  color: hsl(229, 23%, 23%);
 }
-main article span{
+.information span{
   color: hsl(227, 10%, 46%);
   font-size: 1rem;
   font-weight: 400;
   padding: 0 5px;
+
 }
-main article h3{
+.information h2{
   font-size: 1rem;
   font-weight: 400;
   color: hsl(0, 0%, 59%);
+  padding: 10px 0 30px;
 
 }
 .image_holder img{
@@ -77,11 +80,15 @@ main article h3{
 .buttom_artcls{
   display: flex;
   justify-content: space-around;
-  color: hsl(229, 23%, 23%);
   border-top: 1px solid hsl(0, 0%, 59%);
   padding: 30px;
 }
-.buttom_artcls h5{
+.buttom_artcls h3{
+  font-size: 1rem;
+  color: hsl(229, 23%, 23%);
+}
+.buttom_artcls h4{
+  font-size: .8rem;
   font-weight: 400;
   color: hsl(0, 0%, 59%);
 }
